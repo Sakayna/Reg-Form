@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+	<link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	 <script src="script.js"></script>
+</head>
+<body>
+
+
+<!--- NAV BAR --->
+
+<nav>
+      <a href=""><img src="logo.png" alt="" width="150px"></a>
+	  
+      <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li class="drop-down">
+            <a href="#" class="dropbtn">Explore</a>
+            <div class="dropdown-content">
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instagram</a>
+              <a href="#">Discord</a>
+            </div>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+
+<!-- REGISTRATION FORM --->
+
+<div class="wrapper">
+        <div class="inner">
+            <div class="photo">
+                <img src="neon.jpg">
+            </div>
+            <div class="user-form">
+                <h1>Welcome!</h1>
+				
+     <form action="./index.html" method="GET" id="form">
+        <label for="fname"><b>First Name</b></label>
+        <input
+          type="text"
+          placeholder="First Name"
+          name="fname"
+          id="fname"
+          required
+        />
+
+        <label for="lname"><b>Last Name</b></label>
+        <input
+          type="text"
+          placeholder="Last Name"
+          name="lname"
+          id="lname"
+          required
+        />
+
+        <label for="pnum"><b>Phone Number</b></label>
+        <input
+          type="text"
+          placeholder="Phone Number"
+          name="pnum"
+          id="pnum"
+          required
+        />
+
+        <label for="bday"><b>Birthday</b></label>
+        <input
+          type="text"
+          placeholder="Date of Birth DD/MM/YYYY"
+          name="bday"
+          id="bday"
+          required
+        />
+
+        <label for="uname"><b>User Name</b></label>
+        <input
+          type="text"
+          placeholder="User Name"
+          name="uname"
+          id="uname"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        />
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input
+          type="password"
+          placeholder="Repeat Password"
+          name="psw-repeat"
+          id="psw-repeat"
+          required
+        />
+        <hr />
+
+        <p>
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          By creating an account you agree to our
+          <a href="#">Terms &amp; Privacy</a>.
+        </p>
+        <input
+          type="submit"
+          value="Register"
+          class="registerbtn"
+        
+               
+        />
+                    
+                </form>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
